@@ -1,0 +1,59 @@
+navegarSongBySinatra () {
+    Abrir el navegador
+    Ingresar el link en la barra de navegacion
+}
+
+verificarPaginaPrincipal() {
+    Verificar que cargan los elementos de la pagina principal
+    * logo
+    * menu
+    * imagen sinatra
+    * link login
+    * parrafo de bienvenida
+}
+
+hacerLogin()  {
+    Seleccionar el enlace log in
+    Verificar la carga de los elementos en Log in
+    * campo username
+    * campo password
+    * boton de Log in
+    Ingresar la informacion en los campos
+    Dar clic en el boton Log in
+}
+
+verificacionLogin() {
+    Validacion del mensaje de incio de sesion exitoso en la pagina
+    Validacion del enlace Log out
+}
+
+clicSongs() {
+    Dar clic en el menu songs
+}
+
+verificacionElementosPagina() {
+    8. Verificar que cargan los elementos de la pagina
+    * Titulo Songs
+    * Enlace Create new song
+    * Lista de canciones disponibles
+    * Enlace Log out
+}
+
+clicCreateNewSong() {
+    9. Dar clic en el enlace Create new song
+    10. Verificar que cargan los elementos de la pagina
+    * Titulo Add a new song
+    * campo Title
+    * campo Lenght
+    * campo Date
+    * campo Lyrics
+    * Boton Save Song
+    * Enlace Log out
+    11. Ingresar la informacion en los campos
+    12. Dar clic en el boton Save Song
+}
+
+clicPaginaSong() {
+    Verificar Se muestra la pagina de la cancion, con la informacion proporcionada y sin likes,
+    Verificar se muestran boton para borrar y link para editar
+}

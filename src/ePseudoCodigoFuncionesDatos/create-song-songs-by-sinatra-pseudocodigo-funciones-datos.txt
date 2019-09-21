@@ -1,0 +1,55 @@
+logIn(username, password) {
+    Ingresar username
+    Ingresar password
+    clic en boton login
+}
+
+
+listarCanciones() {
+    clic en el menu Songs
+}
+
+
+listarCancionEnParticular(nombre_cancion) {
+    seleccionar la cancion deseada
+}
+
+createNewSong(title, lenght, date, lyrics) {
+    login Ingresar title
+    Ingresar lenght
+    Ingresar date
+    Ingresar lyrics
+    clic en Save song
+}
+
+editCancion(title, lenght, date, lyrics) {
+    seleccionar la cancion deseada
+    clic en link edit this song
+    editar los campos
+    clic en boton save song
+}
+
+
+borrarCancion() {
+    seleccionar la cancion deseada
+    clic en el boton delete this song
+}
+
+verificarDatosCancion(title, lenght, date, lyrics) {
+
+}
+
+escenario1() {
+dar valor username=frank; String username = "frank";
+dar valor username=sinatra; String password = "sinatra";
+String title = "test";
+int lenght = 800;
+String date = "2019/09/09";
+String lyrics = "LyricsTest";
+
+login(username, password);
+listarCanciones();
+createNewSong(title, lenght, date, lyrics);
+verificarDatosCancion(title, lenght, date, lyrics);
+}
+

@@ -1,0 +1,28 @@
+navegarSongBySinatra () {
+    Abrir el navegador
+    Ingresar el link en la barra de navegacion
+}
+
+verificarPaginaPrincipal() {
+    Verificar que cargan los elementos de la pagina principal
+    * logo
+    * menu
+    * imagen sinatra
+    * link login
+    * parrafo de bienvenida
+}
+
+hacerLogin()  {
+    Seleccionar el enlace log in
+    Verificar la carga de los elementos en Log in
+    * campo username
+    * campo password
+    * boton de Log in
+    Ingresar la informacion en los campos
+    Dar clic en el boton Log in
+}
+
+verificacionLogin() {
+    Validacion del mensaje de incio de sesion exitoso en la pagina
+    Validacion del enlace Log out
+}

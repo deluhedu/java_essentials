@@ -5,3 +5,18 @@ while(numero_sandwiches es menor que 10) {
 }
 
 
+* Hacer 5 sandwiches de Jamon y 10 de Bolonia
+
+numero_sandwiches_bolonia se incia en 0
+while(numero_sandwiches_bolonia es menor que 10) {
+    hacerSandwichBolonia();
+    suma uno a numero_sandwiches_bolonia
+}
+
+
+numero_sandwiches_jamon se incia en 0
+while(numero_sandwiches_jamon es menor que 5) {
+    hacerSandwichJamon();
+    suma uno a numero_sandwiches_jamon
+}
+
